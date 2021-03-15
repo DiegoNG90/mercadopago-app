@@ -5,11 +5,10 @@ const PORT = 3000 || process.env.PORT;
 const mercadopago = require('mercadopago');
 
 // SDK de Mercado Pago
-const mercadopago = require ('mercadopago');
 
 // Agrega credenciales
 mercadopago.configure({
-  access_token: 'PROD_ACCESS_TOKEN' //Todavía no vamos a poner el TOKET real: para hacer prueba vamos a usar USUARIOS DE PRUEBA.
+  access_token: "APP_USR-6308537224528879-031521-a5fcad24749177e4f6604d77f70b2c9c-729167170" //Todavía no vamos a poner el TOKET real: para hacer prueba vamos a usar USUARIOS DE PRUEBA.
 });
 
         
